@@ -1,2 +1,10 @@
 # console_games
-Here are uploaded some of my C/C++ projects
+I'm passionate about gaming, C/C++ programming and game programming. In this repository I uploaded my own implementation of some of the popular simple games - Snake, Pong, Tic-Tac-Toe and Tetris IN THE CONSOLE! No additional libraries. In some of the functions I had used the win32 API so the games run only in Windows for now. Graphics are displayed in PURE TEXT! You need to only download .exe file and run!
+
+Simple Tic-Tac-Toe - Classic tic-tac-toe for two players. Symbols on the board are written by specifying their coordinates(y ,x)  from 0 to 2 and the game logic checks if there is a winner after every input.
+
+Simple Snake - We all remember the classic old school nokia snake game. it is here - in the console. Controls are A - left, S - down, D - right, W - up. The snake moves faster after every apple eaten. The game ends if the snake bites hisself or hit a wall. In the future I'm planing to make the game good looking by adding some SDL graphics.
+
+Simple Pong - Ping pong game for two players, each controlling his own pad. The ball moves look blocky, but that's because I don't wanted the ball to move only horizontal and diagonal. The ball's angle of movement depends on the angle that the ball reflects from the pad and the movement of the pad. For example if the ball if moving to the left pad and from top to bottom, if in the moment of hitting the pad, the pad is moving down the the angle of reflection increases. If the pad is moving up the angle decreaces.  Controls for the first pad are S - down, W - up and for the second pad are O - up and L - down. In the future I'm planing to make the game good looking by adding some SDL graphics.
+
+Simple Tetris - Basic Implementation of the classic tetris game - collision detection, classic scoring, displaying next element, etc. Controls are A - left, S - down, D - right, W - rotate, Space - Instant peace fall. The game end if the blocks reach the top row. In the near future I'm planing to make the game good looking by adding some SDL graphics.
